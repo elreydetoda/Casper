@@ -4,6 +4,7 @@ set -${-//[sc]/}eu${DEBUG+xv}o pipefail
 
 function main(){
 
+    docker pull node:lts
     docker build --pull --rm -f "Dockerfile" -t casper:latest "${PWD}"
 
 }
