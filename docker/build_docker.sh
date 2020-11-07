@@ -4,8 +4,10 @@ set -${-//[sc]/}eu${DEBUG+xv}o pipefail
 
 function main(){
 
-    docker pull node:lts
-    docker build --pull --rm -f "Dockerfile" -t casper:latest "${PWD}"
+    if [[ $(docker image ls -q node:lts | wc -l) -eq 0 ]] ; then
+      docker pull node:lts
+    fi
+    docker build --pull --rm -f "Dockerfile" "${@}" -t casper:latest "${PWD}"
 
 }
 
