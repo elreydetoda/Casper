@@ -1,3 +1,15 @@
+# Personalization
+
+This theme is for this website: https://blog.elreydetoda.site ( short url: https://elrey.casa/blog )
+
+## Credit for alterations
+
+- Theme: [Ghost](https://ghost.org) of course ( as you can see I forked it )
+- Comments: <https://www.commento.io/>
+- Analytics: <https://plausible.io/>
+  - post about why here: <https://blog.elreydetoda.site/analytics/>
+- Tags: <https://blog.many-monkeys.com/adding-a-tags-page-to-ghost-blog/>
+
 # Casper
 
 The default theme for [Ghost](http://github.com/tryghost/ghost/). This is the latest development version of Casper! If you're just looking to download the latest release, head over to the [releases](https://github.com/TryGhost/Casper/releases) page.
