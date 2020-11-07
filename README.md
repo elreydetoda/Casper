@@ -1,6 +1,6 @@
 # Personalization
 
-This theme is for this website: https://blog.elreydetoda.site ( short url: https://elrey.casa/blog )
+This theme is for this website: <https://blog.elreydetoda.site> ( short url: <https://elrey.casa/blog> )
 
 ## Credit for alterations
 
@@ -9,6 +9,7 @@ This theme is for this website: https://blog.elreydetoda.site ( short url: https
 - Analytics: <https://plausible.io/>
   - post about why here: <https://blog.elreydetoda.site/analytics/>
 - Tags: <https://blog.many-monkeys.com/adding-a-tags-page-to-ghost-blog/>
+- ToC: <https://ghost.org/tutorials/adding-a-table-of-contents/>
 
 # Casper
 
