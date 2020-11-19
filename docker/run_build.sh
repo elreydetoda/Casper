@@ -12,7 +12,7 @@ function move_zip(){
 
     dist_folder="${PWD}/dist"
     new_theme="${dist_folder}/${current_branch:-}$(date -Iseconds)_casper-personal.zip"
-    theme_link="${dist_folder}/${current_branch}casper-personal.zip"
+    theme_link="${dist_folder}/${current_branch:-}casper-personal.zip"
     mv "${dist_folder}/casper.zip" "${new_theme}"
     ln -sf "${new_theme}" "${theme_link}"
     ls "${theme_link}"
