@@ -18,6 +18,10 @@
     {{!-- TODO: replace url with site.url helper --}}
     <script async defer data-domain="blog.elreydetoda.site" src="https://plausible.io/js/plausible.js"></script>
 
+    {{!-- This section are scripts for ToC: https://ghost.org/tutorials/adding-a-table-of-contents/ --}}
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.12.0/tocbot.min.css" integrity="sha512-SFw7k74K3983tyOlJIHa8atr9Ppef3Kix5cmifwzU7ZdtU2E0FRuOVRtd3ENpMJ8sNCie5hlb/0j23efcdQJXA==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.12.0/tocbot.min.js" integrity="sha512-oD3xGN8YTxenx6tdS4D/RKqO4OtORBQtAb2/FseM17GGMIi6jMwKUBc8duX4A5RwMOGGXoFBZrsqbOk8GpXFgQ==" crossorigin="anonymous"></script>
+
     {{!-- This tag outputs SEO meta+structured data and other important settings --}}
     {{ghost_head}}
 
@@ -130,6 +134,16 @@
                 $('.subscribe-overlay form').removeClass();
                 $('.subscribe-email').val('');
             });
+        });
+    </script>
+
+    {{!-- Scripts for ToC --}}
+    <script>
+        tocbot.init({
+            tocSelector: '.toc',
+            contentSelector: '.post-content',
+            hasInnerContainers: true,
+            collapseDepth: 6
         });
     </script>
 
