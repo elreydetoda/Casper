@@ -31,6 +31,8 @@ function main(){
   branch_check
   move_zip
 
+  echo "checkout https://gscan.ghost.org/ to check your theme"
+
 }
 
 if [[ "${0}" = "${BASH_SOURCE[0]}" ]] ; then
