@@ -1,3 +1,5 @@
+use [this](https://github.com/elreydetoda/Casper/compare/3.1.1...elreydetoda:3.x) to identify differences added
+
 # Personalization
 
 This theme is for this website: <https://blog.elreydetoda.site> ( short url: <https://elrey.casa/blog> )
