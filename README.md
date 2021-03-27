@@ -11,6 +11,10 @@ This theme is for this website: <https://blog.elreydetoda.site> ( short url: <ht
 - Tags: <https://blog.many-monkeys.com/adding-a-tags-page-to-ghost-blog/>
 - ToC: <https://ghost.org/tutorials/adding-a-table-of-contents/>
 
+## Usage
+
+- If you want to have dev in the name of the theme create a branch that starts with `feat/`, and when you run the [run_build.sh](/docker/run_build.sh) script it will add a `dev-` to the theme. So, you can upload to ghost and not override your current "prod" ( working ) theme.
+
 # Casper
 
 The default theme for [Ghost](http://github.com/tryghost/ghost/). This is the latest development version of Casper! If you're just looking to download the latest release, head over to the [releases](https://github.com/TryGhost/Casper/releases) page.
